@@ -21,7 +21,7 @@ local(local repository 내 피시의 저장소)에서 올리기 위해 올릴 �
 add된 파일들을 local에 변경 작업 하는것을 commit 이라고 하고 메세지를 추가할 수 있음.
 그리고 local 에서 원격으로 보내는 것을 push 작업이라고 함.
 
-## commit 했는데 git에 적용이 되지 않을때
+## commit 했는데 git에 적용이 되지 않을 때
 - commit -> 내 컴퓨터(로컬 저장소) 에만 변경 사항을 저장
 - push -> 변경 사항을 GitHub(원격 저장소) 에 업로드
 #### vscode에서 source control에서 커밋을 하면?
@@ -31,7 +31,7 @@ add된 파일들을 local에 변경 작업 하는것을 commit 이라고 하고 
 
 
 ## git에 올리기 위한 기본적인 명령어 (프로그램이 아닌 터미널에서 코드로 올리는 법)
-``````
+```
 git init
 ```
 - 프로젝트를 생성했다면 해당 폴더에서 터미널로 git init을 하여 저장소 초기화 작업을 해줘야함.
