@@ -9,5 +9,3 @@
 ## 파일 내용 되돌리기
 - 특정 파일의 내용을 마지막 커밋으로 돌리고 싶다면 해당 파일 선택 후 '코드 뭉치 버리기(Discard Changes)' 선택
 - VsCode > Source Control > Discard Changes
-
-## 브랜치 변경하기
