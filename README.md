@@ -12,7 +12,8 @@
 
 ## commit 과 push의 차이
 (참고 링크 : https://thenicesj.tistory.com/506)
-git 의 repository 에서 받아오는 것을 pull 로 당겨온다 라고 하고, 로컬에 있는 코드를 우너격으로 올리는 작업을 push라고 함.
+
+git 의 repository 에서 받아오는 것을 pull 로 당겨온다 라고 하고, 로컬에 있는 코드를 원격으로 올리는 작업을 push라고 함.
 
 여기서 push를 하기 위해서는 add와 commit 작업이 필요한데, 이 작업들의 차이점은.
 
