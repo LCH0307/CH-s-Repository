@@ -72,8 +72,8 @@ git checkout -b <브랜치명>  # 새로운 브랜치를 생성하고 동시에 
 
 ### **2️⃣ 브랜치 삭제**
 ```bash
-git branch -d <브랜치명>  # 병합된 브랜치 삭제
-git branch -D <브랜치명>  # 강제 삭제 (병합되지 않은 브랜치 포함)
+git branch -d <브랜치명>  # 병합된 브랜치 삭제 (-d : (--delete))
+git branch -D <브랜치명>  # 강제 삭제 (병합되지 않은 브랜치 포함, -D : (--delete --force))
 ```
 
 ### **3️⃣ 브랜치 병합**
@@ -87,7 +87,8 @@ git merge <브랜치명>  # 현재 브랜치에 지정된 브랜치를 병합
 git push origin <브랜치명>  # 원격 저장소에 브랜치 업로드
 git branch -r  # 원격 저장소의 브랜치 목록 확인
 git checkout -b <브랜치명> origin/<브랜치명>  # 원격 브랜치를 로컬로 가져오기
-git push --delete origin <브랜치명>  # 원격 저장소에서 브랜치 삭제
+git push -d origin <브랜치명>  # 원격 저장소에서 브랜치 삭제, git push origin --delete <브랜치명> 과 같은 명령어(순서 차이 있음음)
+git fetch -p  # 삭제된 브랜치 정보를 로컬에 반영(-p (--prune) : 삭제된 원격 브랜치를 로컬에서도 정리)
 ```
 
 ---
